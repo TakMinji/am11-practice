@@ -6,12 +6,14 @@ header > div > ul li p,
 #about figcaption p,
 section.videoArea h2,
 section.expArea ul,
+section.teamArea ul,
 footer *{
     font-family: "Roboto"; 
 }
 header > div > ul li h2,
 #about figcaption h2,
-section.expArea > *:not(ul){
+section.expArea > *:not(ul),
+section.teamArea h2{
     font-family: 'Playfair Display';
 }
 .btn_more{
