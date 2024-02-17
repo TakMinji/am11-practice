@@ -163,9 +163,13 @@
         width: 100%; display: block;
     }
     section.worksArea a.btn_more{
-        max-width: 140px; margin: 0 auto;
+        max-width: 140px; margin: 0 auto; font-family: 'Hammersmith One';
     }
+    /* 글꼴 안먹혀서 따로 처리함 */
 /* worksArea Fin */
+
+
+
 
 }
 
