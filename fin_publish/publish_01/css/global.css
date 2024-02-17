@@ -15,7 +15,8 @@ header > div > ul li h2,
 #about figcaption h2,
 section.expArea > *:not(ul),
 section.teamArea h2,
-section.worksArea h2{
+section.worksArea h2,
+section.talkArea p{
     font-family: 'Playfair Display';
 }
 .btn_more{
