@@ -227,23 +227,9 @@
     }
     /* ? talkArea Fin - 연습하기 */
 
-    section.contactArea:after{
-        content: ''; display: block; clear: both;
-    }
-    section.contactArea h2{
-        display: none;
-    }
-    section.contactArea form fieldset,
-    section.contactArea div{
-        float: left; 
-    }
-    section.contactArea form fieldset legend.
-    section.contactArea div h3{
-        font-size: 22px; font-weight: 700; color: #413d4b; margin-bottom: 35px;
-    }
-    section.contactArea form fieldset{
-        width: 50%;
-    }
+
+
+    
 
 
 
