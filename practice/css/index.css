@@ -1,0 +1,29 @@
+body{
+    margin: 0; padding: 0;
+}
+div.menu{
+    background-color: #dfdfdf; padding: 5px 0;
+}
+div.menu h1{
+    text-align: center; position: relative;
+}
+div.menu h1 a,
+div.menu nav ul li a{
+    text-decoration: none; text-decoration-line: none;
+}
+div.menu h1 span{
+    color: black; 
+}
+div.menu nav{
+    max-width: 940px; 
+}
+div.menu nav ul{
+    position:absolute; top: 40px; 
+}
+div.menu nav ul li{
+    list-style: none; 
+    margin-left: 20px; text-align: center;
+}
+div.menu nav ul li a{
+    color: black; 
+}

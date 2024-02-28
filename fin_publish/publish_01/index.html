@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tajam</title>
     <link rel="stylesheet" href="css/import.css">
-    <!-- 원래 먼저 구조화할 때 가장 먼저 import.css만들고 구조화해야함 -->
 </head>
 <body>
     <header id="home">
         <div>
-            <h1>ㅣ
+            <h1>
                 <a href="/">
                     <img src="images/logo.png" alt="welcome to Tajam!">
                 </a>
             </h1>
             <!-- todo nav>ul>li*7>a -->
             <nav>
+                <label for="mnav" class="mui">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <input type="checkbox" id="mnav" class="mui">
                 <ul>  
                     <li><a href="#home" class="active">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -31,7 +36,7 @@
             <ul>
                 <li>
                     <h2>We Are Awesome Creative Agency</h2>
-                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
                     <a href="#" class="btn_more">LEARN MORE</a>
                 </li>
             </ul>
@@ -58,11 +63,7 @@
 
     <section class="videoArea">
         <a href="#">▷</a>
-        <!-- 
-        ? .play(); type:button 바로연결가능 / a -> default Event : href(이동) function(e){e.preventDefault;} 
-        input을 걸면 바로 실행이되지만 a를 걸면 밑처리 작업이 복잡해짐
-        유튜브에서 주는 iframe은 a로 정해져 있기때문에 input type:button을 써도 못알아들음
-        -->
+        <!-- ? .play(); -> type:button 바로연결가능 / a -> default Event : href(이동) function(e){e.preventDefault;} -->
         <h2>WATCH OUR STORY</h2>
     </section>
     <!-- ? video Fin -->
@@ -155,7 +156,7 @@
     <section id="works" class="worksArea">
         <h2>
             OUR WORKS
-            <a href="#">See All Project in dribbble</a>
+            <a href="#">See All Project in dribbble &gt;</a>
         </h2>
         <ul>
             <li><a href="#"><img src="https://via.placeholder.com/270x200" alt="undefined"></a></li>
