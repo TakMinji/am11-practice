@@ -1,0 +1,16 @@
+.marioWrap{
+   width: 1000px; height: 300px;
+}
+.redMario{
+    float: left; width: 300px; height: 300px;
+}
+.redMario img{
+    width: 100%; height: 100%;
+}
+.blahblah{
+    float: right; width: 700px;
+    position: relative;
+}
+.blahblah p{
+    position: absolute; top: 150px;
+}

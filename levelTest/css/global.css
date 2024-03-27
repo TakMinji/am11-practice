@@ -1,0 +1,42 @@
+
+
+@media screen and (min-width : 1280px){
+
+    header h1{
+        
+    }
+    header h1 a{
+
+    }
+    header > div{
+        position: relative;
+    }
+    header > div nav{
+        float: left; width: 90%; margin: 0 auto;
+        text-align: center; position: relative; line-height: 70px; 
+    }
+    header > div nav ul{
+        list-style: none; padding: 0;
+        background-color: #ed242e; 
+    }
+    header > div nav ul li{
+        display: inline-block; margin-left: 70px
+    }
+    header > div nav ul li a{
+        display: block; font-size: 17px; color: #fff;
+        text-decoration: none;
+    }
+    header div > ul{
+        list-style: none; padding: 0; margin: 0;
+        background: url('../images/wpfLvTest_10_02.png') center top / cover no-repeat;
+        width: 100%; padding-bottom: 300px; overflow: hidden;
+    }
+    header div > ul li{
+        display: block; padding-top: 237px; padding-left: 290px;
+    }
+    header > div > ul li h2{
+        font-size: 89px; color: white; font-weight: 300;
+        line-height: 140px; 
+    }
+
+}
